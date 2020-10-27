@@ -43,11 +43,11 @@ Parameters are:
 
 - Root element, which children images will be generated.
 If this parameter is not set, `document.body` will be used.
-- Class name, which will be used to detect dummy images.
+- Class name, which will be used to detect dummy images (default `dummy`).
 - Default width of image (if `img` attribute is not set).
 - Default height of image.
 
-Use `null` to pass one of them.
+Use `null` to skip one of them.
 
 ```js
 var el = document.querySelector('.my-container');
